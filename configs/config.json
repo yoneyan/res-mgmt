@@ -1,0 +1,40 @@
+{
+  "controller": {
+    "port": 8080,
+    "username": "root",
+    "password": "test123"
+  },
+  "db": {
+    "path": "./res-mgmt.db"
+  },
+  "slack": [
+    {
+      "url": "https://hooks.slafck.com/services/T0517GH7Q/B01EF915L0G/oqPXJ5YGuBcftQrDxibmDaDB",
+      "channel": "develop_dsbd",
+      "user": "dsbd"
+    }
+  ],
+  "genre": [
+    {
+      "id": 1,
+      "name": "router",
+      "comment": "Router"
+    },
+    {
+      "id": 2,
+      "name": "switch",
+      "comment": "Switch"
+    },
+    {
+      "id": 3,
+      "name": "server",
+      "comment": "Server"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "Yuto Yoneda"
+    }
+  ]
+}
